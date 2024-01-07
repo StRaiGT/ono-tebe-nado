@@ -246,5 +246,48 @@ body {
 }
 
 .about {
-  margin: 146px 24px;
+  display: grid;
+  grid-template-columns: 334px auto;
+  column-gap: 25px;
+  margin: 146px 24px 0;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin: 37px auto 0;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__column {
+  margin-top: 133px;
+  margin-bottom: 13px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 3px;
+  margin-bottom: 100px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+}
+
+.footer {
+  margin: 180px 26px 88px;
 }
